@@ -1,0 +1,3 @@
+include ':api'
+// https://johncodeos.com/how-to-change-your-project-name-package-name-in-android-studio/
+rootProject.name = "api"

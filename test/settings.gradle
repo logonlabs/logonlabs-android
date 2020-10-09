@@ -1,0 +1,6 @@
+include ':api'
+include ':app'
+
+rootProject.name = "app"
+
+project (':api').projectDir = new File(rootProject.projectDir, '../src/api')
